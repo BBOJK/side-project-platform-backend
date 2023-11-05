@@ -11,7 +11,6 @@ import java.util.Collection;
 import java.util.List;
 
 @Data
-@Builder
 public class AppUserDetails implements UserDetails {
     private final Long id;
     private final String email;
