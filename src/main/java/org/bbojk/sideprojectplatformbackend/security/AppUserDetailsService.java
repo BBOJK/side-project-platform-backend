@@ -1,8 +1,8 @@
 package org.bbojk.sideprojectplatformbackend.security;
 
 import lombok.RequiredArgsConstructor;
-import org.bbojk.sideprojectplatformbackend.domain.AppUser;
-import org.bbojk.sideprojectplatformbackend.domain.AppUserRepository;
+import org.bbojk.sideprojectplatformbackend.user.domain.AppUser;
+import org.bbojk.sideprojectplatformbackend.user.domain.AppUserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

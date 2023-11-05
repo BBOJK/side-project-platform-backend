@@ -1,4 +1,4 @@
-package org.bbojk.sideprojectplatformbackend.domain;
+package org.bbojk.sideprojectplatformbackend.user.domain;
 
 
 import lombok.Builder;

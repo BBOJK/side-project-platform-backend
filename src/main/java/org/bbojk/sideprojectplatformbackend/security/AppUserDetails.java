@@ -2,7 +2,7 @@ package org.bbojk.sideprojectplatformbackend.security;
 
 import lombok.Builder;
 import lombok.Data;
-import org.bbojk.sideprojectplatformbackend.domain.AppUser;
+import org.bbojk.sideprojectplatformbackend.user.domain.AppUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
