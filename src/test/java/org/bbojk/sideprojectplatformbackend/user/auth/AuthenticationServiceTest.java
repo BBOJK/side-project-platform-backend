@@ -61,7 +61,7 @@ class AuthenticationServiceTest {
     void authenticate() {
         //given
         RegisterRequest request = RegisterRequest.builder()
-                .email("test2@test.com")
+                .email("test@test.com")
                 .password("test1234")
                 .build();
 
