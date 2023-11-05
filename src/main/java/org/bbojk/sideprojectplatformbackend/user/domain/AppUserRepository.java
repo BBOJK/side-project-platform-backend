@@ -4,5 +4,5 @@ import java.util.Optional;
 
 public interface AppUserRepository {
     Optional<AppUser> findByEmail(String email);
-    void save(AppUser appUser);
+    AppUser save(AppUser appUser);
 }
